@@ -8,7 +8,7 @@ const Header = () => {
   const { state, dispatch } = useForm();
 
   return (
-    <header className="bg-surface border-b border-border">
+    <header className="bg-surface border-b fixed z-[9999] w-full border-border">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
