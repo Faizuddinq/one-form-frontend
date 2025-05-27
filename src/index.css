@@ -1,0 +1,83 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 10% 9%;
+    --foreground: 44 100% 89%;
+
+    --card: 30 10% 13%;
+    --card-foreground: 44 100% 89%;
+
+    --popover: 30 10% 13%;
+    --popover-foreground: 44 100% 89%;
+
+    --primary: 30 10% 9%;
+    --primary-foreground: 44 100% 89%;
+
+    --secondary: 30 10% 17%;
+    --secondary-foreground: 44 100% 89%;
+
+    --muted: 30 10% 17%;
+    --muted-foreground: 39 90% 30%;
+
+    --accent: 24 95% 53%;
+    --accent-foreground: 44 100% 89%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 44 100% 89%;
+
+    --border: 240 5.9% 27%;
+    --input: 240 5.9% 27%;
+    --ring: 262 90% 50%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 30 10% 9%;
+    --sidebar-foreground: 44 100% 89%;
+    --sidebar-primary: 262 90% 50%;
+    --sidebar-primary-foreground: 44 100% 89%;
+    --sidebar-accent: 30 10% 17%;
+    --sidebar-accent-foreground: 44 100% 89%;
+    --sidebar-border: 240 5.9% 27%;
+    --sidebar-ring: 262 90% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-primary text-text-primary font-sans;
+  }
+
+  .drag-over {
+    @apply border-2 border-dashed border-highlight bg-highlight/10;
+  }
+
+  .field-dragging {
+    @apply opacity-50 transform rotate-2;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-accent hover:bg-accent/90 text-white font-semibold px-6 py-3 rounded-lg transition-colors;
+  }
+
+  .btn-secondary {
+    @apply bg-surface hover:bg-surface/80 text-text-primary border border-border font-medium px-4 py-2 rounded-lg transition-colors;
+  }
+
+  .form-field {
+    @apply bg-surface border border-border rounded-lg p-4 transition-all hover:border-highlight/50;
+  }
+
+  .form-field.selected {
+    @apply border-highlight ring-2 ring-highlight/20;
+  }
+}
