@@ -34,6 +34,7 @@ OneForm is a powerful, user-friendly form builder application that allows you to
 
 - **Frontend Framework:** React 18
 - **Build Tool:** Vite
+- **Data Persistence:** LocalStorage
 - **Styling:** Tailwind CSS
 - **UI Components:** Shadcn UI
 - **Routing:** React Router
