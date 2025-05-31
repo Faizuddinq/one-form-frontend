@@ -1,8 +1,7 @@
-# Form Genesis - Modern Form Builder
+# OneForm - Modern Form Builder
 
-Form Genesis is a powerful, user-friendly form builder application that allows you to create beautiful, customizable forms in minutes. Built with modern web technologies, it provides an intuitive interface for creating, managing, and analyzing forms.
+OneForm is a powerful, user-friendly form builder application that allows you to create beautiful, customizable forms in minutes. Built with modern web technologies, it provides an intuitive interface for creating, managing, and analyzing forms.
 
-![Form Genesis](https://your-screenshot-url.com)
 
 ## 🌟 Features
 
@@ -37,8 +36,6 @@ Form Genesis is a powerful, user-friendly form builder application that allows y
 - **Build Tool:** Vite
 - **Styling:** Tailwind CSS
 - **UI Components:** Shadcn UI
-- **Form Handling:** React Hook Form
-- **State Management:** React Query
 - **Routing:** React Router
 - **Type Safety:** TypeScript
 - **Validation:** Zod
@@ -54,7 +51,7 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/form-genesis.git
+   git clone [https://github.com/yourusername/form-genesis.git](https://github.com/Faizuddinq/one-form-frontend)
    cd form-genesis
    ```
 
