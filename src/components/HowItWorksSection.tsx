@@ -45,7 +45,7 @@ const HowItWorksSection = () => {
                 {step.description}
               </p>
               {index < steps.length - 1 && (
-                <div className="hidden md:block absolute top-8 left-full w-full h-0.5 bg-border transform -translate-x-1/2"></div>
+                <div className="hidden md:block absolute top-8 left-full w-[85%] h-0.5 bg-border transform -translate-x-1/2"></div>
               )}
             </div>
           ))}

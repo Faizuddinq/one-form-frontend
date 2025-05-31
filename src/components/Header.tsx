@@ -34,13 +34,13 @@ const Header = () => {
           </nav>
 
           <div className="flex items-center space-x-4">
-            <button
+            {/* <button
               onClick={() => dispatch({ type: 'TOGGLE_THEME' })}
               className="p-2 rounded-lg hover:bg-border transition-colors"
               aria-label="Toggle theme"
             >
               <Sun className="w-5 h-5 text-text-primary" />
-            </button>
+            </button> */}
             
             <Link
               to="/builder"
